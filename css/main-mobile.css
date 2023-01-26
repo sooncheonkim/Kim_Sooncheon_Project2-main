@@ -1,0 +1,503 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features
+    6. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.box-color {
+    background-color: rgb(86, 85, 85);
+    color: white;
+
+}
+
+.box-color2 {
+    background-color: grey;
+
+}
+
+h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+/* 2. ---Grid--- */
+
+.grid {
+    display: grid;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: repeat(4, 80px);
+    grid-column-gap: 18px;
+}
+
+/* 3. ---Header--- */
+
+#main-header {
+    margin-top: 0;
+    height: 130px;
+}
+
+#header-logo {
+    height: 82px;
+    width: 178px;
+    grid-column: 1/2;
+    margin-top: 63px;
+}
+
+#header-hamburger {
+    height: 82px;
+    width: 81px;
+    grid-column: 4/-1;
+    margin-top: 63px;
+}
+
+/* 3. ---Header--- */
+
+#hero-text {
+    width: 250px;
+    height: 237px;
+    background-color: #D1D0D0;
+    grid-column: 2/4;
+    margin-top: 100px;
+    
+}
+
+#hero-text h2{
+    color: white;
+    font-size: 40px;
+}
+
+
+/* 3. ---Vedio--- */
+
+#video {
+    height: 900px;
+    background-color: white;
+}
+
+#video-text1 {
+    width: 305px;
+    height: 77px;
+    grid-column: 1/4;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#video-text1 h2 {
+    color: white;
+    font-size: 20px;
+}
+
+#video-text2 {
+    width: 305px;
+    height: 496px;
+    grid-column: 1/4;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+#video-text2 p {
+    color: white;
+    font-size: 18px;
+}
+
+#video-image {
+    width: 375px;
+    height: 210px;
+    grid-column: 1/-1;
+    margin-top: 30px;
+}
+
+/* 4. ---Gallery--- */
+
+/* 1 */
+#gallery1 {
+    height: 720px;
+    background-color: rgb(205, 205, 205);
+}
+
+#gallery1-image {
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#gallery1-text {
+    width: 334px;
+    height: 146px;
+    background-color: rgb(111, 111, 111);
+    grid-column: 1/4;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#gallery1-click {
+    width: 215px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 1/4;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#gallery1-click a {
+    color: white;
+}
+
+/* 2 */
+#gallery2 {
+    height: 720px;
+    background-color: rgb(205, 205, 205);
+}
+
+#gallery2-image {
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#gallery2-text {
+    width: 334px;
+    height: 146px;
+    background-color: rgb(111, 111, 111);
+    grid-column: 1/4;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#gallery2-click {
+    width: 215px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 1/4;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#gallery2-click a {
+    color: white;
+}
+
+/* 3 */
+#gallery3 {
+    height: 720px;
+    background-color: rgb(205, 205, 205);
+}
+
+#gallery3-image {
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#gallery3-text {
+    width: 334px;
+    height: 146px;
+    background-color: rgb(111, 111, 111);
+    grid-column: 1/4;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#gallery3-click {
+    width: 215px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 1/4;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#gallery3-click a {
+    color: white;
+}
+
+/* 4 */
+#gallery4 {
+    height: 720px;
+    background-color: rgb(205, 205, 205);
+}
+
+#gallery4-image {
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#gallery4-text {
+    width: 334px;
+    height: 146px;
+    background-color: rgb(111, 111, 111);
+    grid-column: 1/4;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#gallery4-click {
+    width: 215px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 1/4;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#gallery4-click a {
+    color: white;
+}
+
+/* 5. ---about-history-shop--- */
+
+#about-history-shop {
+    height: 1400px;
+    background-color: #a2a2a2;
+}
+ /* 1 */
+#img1 {
+    grid-column: 1/4;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+#about-click1 {
+   width: 193px;
+   height: 54px;
+   background-color: gray;
+   border-radius: 40px;
+   text-align: center;
+   grid-column: 1/4;
+   margin-top: -80px;
+   margin-left: 90px;
+}
+
+#about-click1 a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#about-click1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ /* 2 */
+#img2 {
+    grid-column: 1/4;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#about-click2 {
+   width: 193px;
+   height: 54px;
+   background-color: gray;
+   border-radius: 40px;
+   text-align: center;
+   grid-column: 1/4;
+   margin-top: -80px;
+   margin-left: 90px;
+}
+
+#about-click2 a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#about-click2 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ /* 3 */
+#img3 {
+    grid-column: 1/4;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#about-click3 {
+   width: 193px;
+   height: 54px;
+   background-color: gray;
+   border-radius: 40px;
+   text-align: center;
+   grid-column: 1/4;
+   margin-top: -80px;
+   margin-left: 90px;
+}
+
+#about-click3 a {
+    color: white;
+    text-decoration-line: none;
+}
+
+#about-click3 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* 6. --Sign Up-- */
+
+ #sign-up {
+    height: 370px;
+    background-color: #9F9D9D;
+ }
+
+ #sign-Con {
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-left: 40px;
+ }
+
+ #sign-up h2 {
+    color: white;
+    font-size: 38px;
+ }
+
+ #sign-click {
+    width: 253px;
+    height: 74px;
+    background-color: white;
+    color: #9F9D9D;
+    font-size: 40px;
+    border-radius: 40px;
+    grid-column: 1/4;
+    text-align: center;
+    margin-left: 30px;
+ }
+
+ #sign-click p {
+    margin-top: 20px;
+ }
+
+ /* 7. --footer-- */
+
+ #footer-Map {
+    height: 140px;
+    background-color: #434242;
+    display: flex;
+ }
+
+ #map1 {
+    width: 80px;
+    height: 96px;
+    background-color: #939191;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+
+ #map2 {
+    width: 80px;
+    height: 96px;
+    background-color: #939191;
+    grid-column: 1/2;
+    margin-left: 10px;
+    margin-top: 20px;
+ }
+
+ #map3 {
+    width: 80px;
+    height: 96px;
+    background-color: #939191;
+    grid-column: 1/2;
+    margin-left: 10px;
+    margin-top: 20px;
+ }
+
+ #map4 {
+    width: 80px;
+    height: 96px;
+    background-color: #939191;
+    grid-column: 1/2;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+ }
+
+ #policy-Con {
+    height: 80px;
+    background-color: #212020;
+ }
+
+#policy-copy{
+    width: 264px;
+    height: 23px;
+    background-color: #C7C6C6;
+    grid-column: 1/3;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#footer-sns {
+    height: 25px;
+    grid-column: 4/-1;
+    margin-top: 10px;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+#instagram {
+    width: 20px;
+    height: 20px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+#twitter {
+    width: 20px;
+    height: 20px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+#facebook {
+    width: 20px;
+    height: 20px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+#top-scroll {
+    width: 50px;
+    height: 20px;
+    background-color: #908E8E;
+    grid-column: 2/3;
+    margin-left: 60px;
+}
