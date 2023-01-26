@@ -46,28 +46,90 @@
 /* 3. ---Header--- */
 
 #main-header {
-    margin-top: 15px;
+    margin-top: 0;
+    height: 200px;
 }
 
 #header-logo {
-    height: 140px;
+    height: 130px;
     width: 315px;
     grid-column: 1/2;
-    margin-top: 60px;
-
+    margin-top: 63px;
 }
 
 #header-nav {
     height: 80px;
     width: 570px;
     grid-column: 4/8;
-    margin-top: 120px;
+    margin-top: 113px;
 }
 
 #header-icons {
     height: 70px;
     width: 360px;
     grid-column: 10/-1;
-    margin-top: 130px;
+    margin-top: 123px;
     margin-left: 30px;
+}
+
+/* 3. ---Header--- */
+#hero-text1 {
+    width: 812px;
+    height: 310px;
+    grid-column: 7/-1;
+    grid-row: 1/2;
+    margin-top: 170px;
+}
+
+#hero-text1 h2{
+    color: white;
+    font-size: 100px;
+}
+
+#hero-text2 {
+    width: 812px;
+    height: 121px;
+    grid-column: 7/-1;
+    grid-row: 1/2;
+    margin-top: 514px;
+}
+
+#hero-text2 p {
+    color: white;
+    font-size: 20px;
+}
+
+/* 3. ---Vedio--- */
+
+#video-text1 {
+    width: 890px;
+    height: 128px;
+    grid-column: 4/10;
+    margin-top: 40px;
+}
+
+#video-text1 h2 {
+    color: white;
+    font-size: 30px;
+}
+
+#video-text2 {
+    width: 890px;
+    height: 128px;
+    grid-column: 4/10;
+    margin-top: 34px;
+}
+
+#video-text2 p {
+    color: white;
+    font-size: 20px;
+}
+
+#video-image {
+    width: 1130px;
+    height: 560px;
+    grid-column: 3/10;
+    grid-row: 3/4;
+    margin-top: 85px;
+    margin-left: 45px;
 }
