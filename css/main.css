@@ -25,12 +25,17 @@
 .box-color {
     background-color: black;
     color: white;
-    text-align: center;
+
 }
 
 .box-color2 {
     background-color: grey;
-    text-align: center;
+
+}
+
+h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
 }
 
 /* 2. ---Grid--- */
@@ -83,7 +88,7 @@
 
 #hero-text1 h2{
     color: white;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #hero-text2 {
@@ -132,4 +137,352 @@
     grid-row: 3/4;
     margin-top: 85px;
     margin-left: 45px;
+    margin-bottom: 70px;
+}
+
+/* 4. ---Gallery--- */
+
+/* 1 */
+#gallery1 {
+    height: 610px;
+    background-color: rgb(205, 205, 205);
+}
+
+#gallery1-image {
+    grid-column: 2/4;
+    margin-top: 55px;
+}
+
+#gallery1-text {
+    width: 666px;
+    height: 168px;
+    background-color: rgb(86, 86, 86);
+    grid-column: 7/12;
+    color: white;
+    margin-top: 122px;
+}
+
+#gallery1-click {
+    width: 214px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 7/10;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -260px;
+}
+
+#gallery1-click a {
+    color: white;
+}
+
+/* 2 */
+#gallery2 {
+    height: 610px;
+    background-color: rgb(187, 187, 187);
+}
+
+#gallery2-image {
+    grid-column: 2/4;
+    margin-top: 55px;
+}
+
+#gallery2-text {
+    width: 666px;
+    height: 168px;
+    background-color: rgb(86, 86, 86);
+    grid-column: 7/12;
+    color: white;
+    margin-top: 122px;
+}
+
+#gallery2-click {
+    width: 214px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 7/10;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -260px;
+}
+
+#gallery2-click a {
+    color: white;
+}
+
+/* 3 */
+#gallery3 {
+    height: 610px;
+    background-color: rgb(144, 143, 143);
+}
+
+#gallery3-image {
+    grid-column: 2/4;
+    margin-top: 55px;
+}
+
+#gallery3-text {
+    width: 666px;
+    height: 168px;
+    background-color: rgb(86, 86, 86);
+    grid-column: 7/12;
+    color: white;
+    margin-top: 122px;
+}
+
+#gallery3-click {
+    width: 214px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 7/10;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -260px;
+}
+
+#gallery3-click a {
+    color: white;
+}
+
+/* 4 */
+#gallery4 {
+    height: 610px;
+    background-color: rgb(124, 124, 124);
+}
+
+#gallery4-image {
+    grid-column: 2/4;
+    margin-top: 55px;
+}
+
+#gallery4-text {
+    width: 666px;
+    height: 168px;
+    background-color: rgb(86, 86, 86);
+    grid-column: 7/12;
+    color: white;
+    margin-top: 122px;
+}
+
+#gallery4-click {
+    width: 214px;
+    height: 46px;
+    background-color: gray;
+    grid-column: 7/10;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: -260px;
+}
+
+#gallery4-click a {
+    color: white;
+}
+
+/* 5. ---about-history-shop--- */
+
+#about-history-shop {
+    height: 770px;
+    background-color: #EFEFEF;
+}
+
+#about-us1 {
+    grid-column: 3/5;
+    margin-top: 100px;
+}
+
+#about-click1 {
+   width: 193px;
+   height: 74px;
+   background-color: gray;
+   grid-column: 3/5;
+   border-radius: 40px;
+   margin-left: 100px;
+   text-align: center;
+}
+
+#about-click1 a {
+    color: white;
+}
+
+#about-click1 p {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#about-us2 {
+    grid-column: 6/8;
+    margin-top: 100px;
+}
+
+#about-click2 {
+    width: 193px;
+    height: 74px;
+    background-color: gray;
+    grid-column: 3/5;
+    border-radius: 40px;
+    margin-left: 100px;
+    text-align: center;
+ }
+ 
+ #about-click2 a {
+     color: white;
+ }
+ 
+ #about-click2 p {
+     font-size: 30px;
+     padding-top: 10px;
+ }
+
+
+#about-us3 {
+    grid-column: 9/11;
+    margin-top: 100px;
+}
+
+#about-click3 {
+    width: 193px;
+    height: 74px;
+    background-color: gray;
+    grid-column: 3/5;
+    border-radius: 40px;
+    margin-left: 100px;
+    text-align: center;
+ }
+ 
+ #about-click3 a {
+     color: white;
+ }
+ 
+ #about-click3 p {
+     font-size: 30px;
+     padding-top: 10px;
+ }
+
+ /* 6. --Sign Up-- */
+
+ #sign-up {
+    height: 140px;
+    background-color: #9F9D9D;
+ }
+
+ #sign-Con {
+    grid-column: 2/10;
+    margin-top: 5px;
+ }
+
+ #sign-up h2 {
+    color: white;
+    font-size: 50px;
+ }
+
+ #sign-click {
+    width: 253px;
+    height: 74px;
+    background-color: white;
+    color: #9F9D9D;
+    font-size: 40px;
+    border-radius: 40px;
+    grid-column: 10/13;
+    text-align: center;
+    margin-top: 35px;
+ }
+
+ #sign-click p {
+    margin-top: 20px;
+ }
+
+ /* 7. --footer-- */
+
+ #footer-Map {
+    height: 560px;
+    background-color: #434242;
+ }
+
+ #map1 {
+    width: 340px;
+    height: 435px;
+    background-color: #939191;
+    grid-column: 1/3;
+    margin-left: 73px;
+    margin-top: 63px;
+ }
+
+ #map2 {
+    width: 340px;
+    height: 435px;
+    background-color: #939191;
+    grid-column: 4/6;
+    margin-left: 73px;
+    margin-top: 63px;
+ }
+
+ #map3 {
+    width: 340px;
+    height: 435px;
+    background-color: #939191;
+    grid-column: 7/9;
+    margin-left: 73px;
+    margin-top: 63px;
+ }
+
+ #map4 {
+    width: 340px;
+    height: 435px;
+    background-color: #939191;
+    grid-column: 10/-1;
+    margin-left: 73px;
+    margin-top: 63px;
+ }
+
+ #policy-Con {
+    height: 130px;
+    background-color: #212020;
+ }
+
+#policy-copy{
+    width: 954px;
+    height: 80px;
+    background-color: #C7C6C6;
+    grid-column: 1/7;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+#footer-sns {
+    width: 210px;
+    height: 55px;
+    grid-column: 10/11;
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+#instagram {
+    width: 55px;
+    height: 55px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+}
+
+#twitter {
+    width: 55px;
+    height: 55px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#facebook {
+    width: 55px;
+    height: 55px;
+    background-color: #D1D0D0;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#top-scroll {
+    width: 124px;
+    height: 72px;
+    background-color: #908E8E;
+    grid-column: 11/-1;
+    margin-top: 30px;
+    margin-left: 100px;
 }
