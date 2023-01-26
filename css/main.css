@@ -1,0 +1,73 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Features
+    6. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.box-color {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box-color2 {
+    background-color: grey;
+    text-align: center;
+}
+
+/* 2. ---Grid--- */
+
+.grid {
+    display: grid;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: repeat(12, 145px);
+    grid-column-gap: 16px;
+}
+
+/* 3. ---Header--- */
+
+#main-header {
+    margin-top: 15px;
+}
+
+#header-logo {
+    height: 140px;
+    width: 315px;
+    grid-column: 1/2;
+    margin-top: 60px;
+
+}
+
+#header-nav {
+    height: 80px;
+    width: 570px;
+    grid-column: 4/8;
+    margin-top: 120px;
+}
+
+#header-icons {
+    height: 70px;
+    width: 360px;
+    grid-column: 10/-1;
+    margin-top: 130px;
+    margin-left: 30px;
+}
